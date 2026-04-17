@@ -10,6 +10,7 @@ button {
     border: none;
     padding: 12px;
     color: #F9FAF8;
+    font-size: 18px;
 }
 
 .top {
@@ -137,12 +138,13 @@ button {
 
 .call button {
     border: #F9FAF8 3px solid;
-    font-size: 18px;
 }
 
-/* Footer stuling */
-
+/* Footer styling */
 footer {
     background-color: #1F2937;
-
+    color: #F9FAF8;
+    text-align: center;
+    padding: 20px 250px 20px 250px;
+    margin-top: 20px;
 }
