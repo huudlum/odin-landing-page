@@ -8,8 +8,6 @@ button {
     border: none;
     padding: 12px;
     color: #F9FAF8;
-    max-width: 100px;
-    margin: 15px
 }
 
 .top {
@@ -72,6 +70,39 @@ button {
     margin: 100px;
     text-align: center;
 }
+
+.hero button{
+    max-width: 100px;
+    margin: 15px
+}
+
+
+
+/* Random Info Stlye */
+.mid {
+    text-align: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+    margin: 48px;
+}
+
+.info-item {
+    max-width: 200px;
+}
+
+.placeholder {
+    height: 150px;
+    width: 200px;
+    border: #3882f6 3px solid;
+    border-radius: 15%;
+    margin-bottom: 20px;
+}
+
+
 
 #quote {
     background-color: #e5e7eb;
