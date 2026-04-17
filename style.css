@@ -1,5 +1,7 @@
 * {
     font-family: "Roboto", sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 button {
@@ -77,7 +79,6 @@ button {
 }
 
 
-
 /* Random Info Stlye */
 .mid {
     text-align: center;
@@ -102,14 +103,25 @@ button {
     margin-bottom: 20px;
 }
 
-
-
-#quote {
+/* Quote styling */
+.quote-section {
     background-color: #e5e7eb;
     font-size: 36px;
     color: #1F2937;
-    font-weight: 300;
+    font-weight: 100;
+    padding: 50px 250px 50px 250px;
 }
+
+#quote {
+    font-style: italic;
+}
+
+#who {
+    font-weight: 500;
+    text-align: right;
+}
+
+
 
 #call {
     background-color: #3882f6;
