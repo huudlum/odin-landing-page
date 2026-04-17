@@ -4,23 +4,50 @@
 
 button {
     background-color: #3882f6;
-}
-
-#hero {
-    background-color: #1F2937;
+    border-radius: 10%;
+    border: none;
+    padding: 12px;
     color: #F9FAF8;
 }
 
-#hero H1 {
+/* Menu styling */
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+}
+
+.left {
+    font-size: 24px;
+}
+
+/* Rest of hero styles */
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px;
+}
+
+.hero H1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+    padding: 12px;
 }
 
-#hero H3 {
-    font-size: 24px;
-    color: #F9FAF8;
-}
 
 #subtext {
     font-size: 18px;
