@@ -1,0 +1,48 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+#hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+#hero H1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+#hero H3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+#subtext {
+    font-size: 18px;
+}
+
+.menu-item {
+    font-size: 18px;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+#call {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+footer {
+    background-color: #1F2937;
+
+}
