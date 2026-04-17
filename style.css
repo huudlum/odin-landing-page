@@ -6,7 +6,7 @@
 
 button {
     background-color: #3882f6;
-    border-radius: 10%;
+    border-radius: 1rem;
     border: none;
     padding: 12px;
     color: #F9FAF8;
@@ -122,11 +122,25 @@ button {
 }
 
 
-
-#call {
+/* Call to action styling */
+.call {
     background-color: #3882f6;
     color: #e5e7eb;
+    margin: 24px 200px 0px 200px;
+    border-radius: 1rem;
+    padding: 24px 24px 24px 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
+
+.call button {
+    border: #F9FAF8 3px solid;
+    font-size: 18px;
+}
+
+/* Footer stuling */
 
 footer {
     background-color: #1F2937;
